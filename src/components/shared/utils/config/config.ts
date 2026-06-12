@@ -182,8 +182,8 @@ export const DOMAIN_CONFIG: Record<string, DomainConfig> = {
     ...createHostedDomainEntries({
         primaryDomain: 'ramzfx.site',
         aliases: ['www.ramzfx.site'],
-        clientId: '33cCr2bWsByPgLlormNFw',
-        appId: '71937',
+        clientId: '33aa3kMiZIo6H3svJWwvu',
+        appId: '133749',
         redirectUri: 'https://ramzfx.site/',
         includeLegacyAppIdInOAuth: true,
         features: {
@@ -198,8 +198,8 @@ export const DOMAIN_CONFIG: Record<string, DomainConfig> = {
     ...createHostedDomainEntries({
         primaryDomain: 'ramzfx.site',
         aliases: ['www.ramzfx.site'],
-        clientId: '33h4ThjleZotVMiKQ1gE7',
-        appId: '124217',
+        clientId: '33aa3kMiZIo6H3svJWwvu',
+        appId: '133749',
         redirectUri: 'https://ramzfx.site/',
         botsFolder: 'optimumtraders.site',
         includeLegacyAppIdInOAuth: true,
