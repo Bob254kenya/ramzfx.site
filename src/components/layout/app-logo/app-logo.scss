@@ -1,0 +1,55 @@
+.app-header {
+    &__logo {
+        padding-inline-start: 1.6rem;
+        padding-inline-end: 1.6rem;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        transition: all 0.3s ease;
+
+        &:hover {
+            opacity: 0.8;
+        }
+
+        img {
+            height: 30px;
+            width: auto;
+            object-fit: contain;
+            object-position: center left;
+            max-width: 180px;
+        }
+
+        &-text {
+            margin-left: 8px;
+        }
+    }
+}
+
+.powered-by-text {
+    font-size: 0.95rem;
+    letter-spacing: 1.2px;
+    color: #fff7e6;
+    font-weight: 700;
+    white-space: nowrap;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    background: linear-gradient(180deg, #c8a45d 0%, #8f6721 100%);
+    border: 1px solid rgba(255, 247, 230, 0.35);
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.24),
+        0 6px 18px rgba(0, 0, 0, 0.24);
+    display: inline-block;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+
+    &:hover {
+        background: linear-gradient(180deg, #d4af37 0%, #9d7429 100%);
+        border-color: rgba(255, 247, 230, 0.52);
+        color: #ffffff;
+        transform: translateY(-1px);
+        box-shadow:
+            inset 0 1px 0 rgba(255, 255, 255, 0.3),
+            0 8px 24px rgba(0, 0, 0, 0.3);
+    }
+}
